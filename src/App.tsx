@@ -9,6 +9,8 @@ import {
   Footer,
 } from "./components";
 import FadeIn from './components/FadeIn';
+import OngoingProject from './components/comingsoon';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.scss';
 
 function App() {
@@ -27,17 +29,26 @@ function App() {
       }, []);
 
     return (
-    <div className={`main-container ${mode === 'dark' ? 'dark-mode' : 'light-mode'}`}>
-        <Navigation parentToChild={{mode}} modeChange={handleModeChange}/>
-        <FadeIn transitionDuration={700}>
-            <Main/>
-            <Expertise/>
-            <Timeline/>
-            <Project/>
-            <Contact/>
-        </FadeIn>
-        <Footer />
-    </div>
+    <Router basename="/jamie-portfolio-template">
+      <div className={`main-container ${mode === 'dark' ? 'dark-mode' : 'light-mode'}`}>
+        <Routes>
+          <Route path="/" element={
+            <>
+              <Navigation parentToChild={{mode}} modeChange={handleModeChange}/>
+              <FadeIn transitionDuration={700}>
+                <Main/>
+                <Expertise/>
+                <Timeline/>
+                <Project/>
+                <Contact/>
+              </FadeIn>
+              <Footer />
+            </>
+          } />
+          <Route path="/projects/unsupervised" element={<OngoingProject />} />
+        </Routes>
+      </div>
+    </Router>
     );
 }
 
