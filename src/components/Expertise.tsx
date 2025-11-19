@@ -42,7 +42,7 @@ function Expertise() {
                     <h3>Data and Machine Learning </h3>
                     <p>I apply data-driven approaches to uncover insights and evaluate models. Experienced with Python, TensorFlow, and data visualization libraries to build and analyze predictive and clustering models.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Tools:</span>
                         {labelsFirst.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -54,7 +54,7 @@ function Expertise() {
                     <h3>Product and UX Design</h3>
                     <p>I design human-centered solutions informed by data and research. Skilled in Figma prototyping, usability testing, and translating complex ideas into intuitive interfaces.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Tools:</span>
                         {labelsSecond.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -66,7 +66,7 @@ function Expertise() {
                     <h3>Engineering and Simulation</h3>
                     <p>With a foundation in chemical engineering, I bring structure, analytical thinking to problem-solving. Experienced in modelling, simulation and process optimization.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Tools:</span>
                         {labelsThird.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
