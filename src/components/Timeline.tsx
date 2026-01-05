@@ -59,7 +59,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Dental Health Impact Checker — SIGHT Global Health Competition</h3>
             <h4 className="vertical-timeline-element-subtitle">SIGHT</h4>
             <p>
-              Designed a digital transition system for rural clinics with simplified screening forms, color-coded priority system, and central logbook. Healthcare Design, UX Research, Systems Design, Digital Onboarding, Prototyping
+              Healthcare Design, UX Research, Systems Design, Prototyping
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
