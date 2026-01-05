@@ -40,7 +40,7 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Aug 2025 - Ongoing"
+            date="Aug 2025 - Nov 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
@@ -48,6 +48,18 @@ function Timeline() {
             <h4 className="vertical-timeline-element-subtitle">Nanyang Technological University</h4>
             <p>
               CNN model implementation, K-Means, Expectation Maximization, PCA, ICA, Randomised Projections, Python, Data Visualization
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Oct 2025 - Nov 2025"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Sight Design for Global Health Competition</h3>
+            <h4 className="vertical-timeline-element-subtitle">SIGHT</h4>
+            <p>
+              UX Research, Healthcare Design, Prototyping, Cross-Cultural Design
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement

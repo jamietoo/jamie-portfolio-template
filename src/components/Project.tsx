@@ -11,12 +11,18 @@ import EM from '../assets/images/EM.png';
 import CNN from '../assets/images/CNN.png';
 import '../assets/styles/Project.scss';
 import Zalora from '../assets/images/Zalora.png';
+import DentalHealth from '../assets/images/dental-health-forms.png';
 
 function Project() {
     return(
     <div className="projects-container" id="projects">
         <h1>Personal Projects</h1>
         <div className="projects-grid">
+            <div className="project">
+                <a href="/jamie-portfolio-template/documents/dental-health-presentation.pdf" target="_blank" rel="noreferrer"><img src={DentalHealth} className="zoom" alt="Dental screening forms" width="100%"/></a>
+                <a href="/jamie-portfolio-template/documents/dental-health-presentation.pdf" target="_blank" rel="noreferrer"><h2>Dental Health Impact Checker — SIGHT Global Health Competition</h2></a>
+                <p>Designed a step-by-step system to help rural clinics transition from paper records to digital dental tracking. Developed simplified screening forms, a color-coded priority system, and a central logbook to reduce missed follow-ups. Proposed a gradual digital onboarding workflow so healthcare volunteers can manage children's oral health more consistently and sustainably.</p>
+            </div>
             <div className="project">
                 <a href="https://www.figma.com/design/2nVjpREl7X4keQ1Ly1JAi2/Zalora-case-competition-updated?node-id=0-1&t=RBQgGoxTYDvSD06J-1" target="_blank" rel="noreferrer"><img src={Zalora} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.figma.com/design/2nVjpREl7X4keQ1Ly1JAi2/Zalora-case-competition-updated?node-id=0-1&t=RBQgGoxTYDvSD06J-1" target="_blank" rel="noreferrer"><h2>Zalora App Redesign Case Competition</h2></a>
