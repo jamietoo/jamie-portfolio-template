@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/jamie-portfolio-template/static/css/main.cc019d32.css",
-    "main.js": "/jamie-portfolio-template/static/js/main.c2f0419a.js",
+    "main.js": "/jamie-portfolio-template/static/js/main.ec13608e.js",
     "static/js/453.b05d8aa5.chunk.js": "/jamie-portfolio-template/static/js/453.b05d8aa5.chunk.js",
     "static/media/jamie.png": "/jamie-portfolio-template/static/media/jamie.027247cd0563f64f6e0f.png",
     "static/media/EM.png": "/jamie-portfolio-template/static/media/EM.cff023fc5a74c3bd7aba.png",
     "static/media/CNN.png": "/jamie-portfolio-template/static/media/CNN.0762fa495387f6e278cc.png",
     "static/media/bg-light.png": "/jamie-portfolio-template/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/jamie-portfolio-template/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/dental-health-forms.png": "/jamie-portfolio-template/static/media/dental-health-forms.4cbb7ba34f6edbb3547c.png",
     "static/media/Zalora.png": "/jamie-portfolio-template/static/media/Zalora.f4de35b285805653c242.png",
     "index.html": "/jamie-portfolio-template/index.html",
     "main.cc019d32.css.map": "/jamie-portfolio-template/static/css/main.cc019d32.css.map",
-    "main.c2f0419a.js.map": "/jamie-portfolio-template/static/js/main.c2f0419a.js.map",
+    "main.ec13608e.js.map": "/jamie-portfolio-template/static/js/main.ec13608e.js.map",
     "453.b05d8aa5.chunk.js.map": "/jamie-portfolio-template/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc019d32.css",
-    "static/js/main.c2f0419a.js"
+    "static/js/main.ec13608e.js"
   ]
 }
