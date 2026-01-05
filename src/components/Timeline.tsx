@@ -56,10 +56,10 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Sight Design for Global Health Competition</h3>
+            <h3 className="vertical-timeline-element-title">Dental Health Impact Checker — SIGHT Global Health Competition</h3>
             <h4 className="vertical-timeline-element-subtitle">SIGHT</h4>
             <p>
-              UX Research, Healthcare Design, Prototyping, Cross-Cultural Design
+              Designed a digital transition system for rural clinics with simplified screening forms, color-coded priority system, and central logbook. Healthcare Design, UX Research, Systems Design, Digital Onboarding, Prototyping
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
