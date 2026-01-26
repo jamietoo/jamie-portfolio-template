@@ -22,7 +22,7 @@ function Project() {
             <div className="project">
                 <a href="https://www.figma.com/design/WBEf7mEKhHap6iTeMB9nVd/Notion-UIUX-with-Proposed-Features?node-id=183-72&t=kT1Ixx5A70WFB67N-1" target="_blank" rel="noreferrer"><img src={NotionKanban} className="zoom" alt="Notion AI Ideathon" width="100%"/></a>
                 <a href="https://www.figma.com/design/WBEf7mEKhHap6iTeMB9nVd/Notion-UIUX-with-Proposed-Features?node-id=183-72&t=kT1Ixx5A70WFB67N-1" target="_blank" rel="noreferrer"><h2>Notion AI Ideathon</h2></a>
-                <p>Designed an AI-assisted decision framework to help early-stage founders evaluate which problems are worth solving by mapping intended outcomes to success metrics and solution feasibility, reducing cognitive load in early product discovery.</p>
+                <p>Designed an AI-assisted decision framework, selected as a finalist at the Notion AI Ideathon (NTU), to help early-stage founders evaluate which problems are worth solving by mapping intended outcomes to success metrics and solution feasibility, reducing cognitive load in early product discovery.</p>
             </div>
             <div className="project">
                 <a href="/jamie-portfolio-template/documents/dental-health-presentation.pdf" target="_blank" rel="noreferrer"><img src={DentalHealth} className="zoom" alt="Dental screening forms" width="100%"/></a>
