@@ -64,6 +64,18 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            date="Nov 2025 - Jan 2026"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Notion AI Ideathon</h3>
+            <h4 className="vertical-timeline-element-subtitle">Nanyang Technological University</h4>
+            <p>
+              Product Thinking, Problem Evaluation, Outcome-Driven UX Notion, AI-Assisted Decision Frameworks, Systems Design, Workflow Prototyping, Figma
+            </p> 
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
             date="Aug 2025 - Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
@@ -73,6 +85,7 @@ function Timeline() {
             <p>
               Event Communications, Visual Design, Content Strategy, Product & UX Workshops, Team Coordination
             </p>
+            
             </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"

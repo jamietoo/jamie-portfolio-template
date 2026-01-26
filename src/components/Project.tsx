@@ -12,12 +12,18 @@ import CNN from '../assets/images/CNN.png';
 import '../assets/styles/Project.scss';
 import Zalora from '../assets/images/Zalora.png';
 import DentalHealth from '../assets/images/dental-health-forms.png';
+import NotionKanban from '../assets/images/notion-kanban.png';
 
 function Project() {
     return(
     <div className="projects-container" id="projects">
         <h1>Personal Projects</h1>
         <div className="projects-grid">
+            <div className="project">
+                <a href="https://www.figma.com/design/WBEf7mEKhHap6iTeMB9nVd/Notion-UIUX-with-Proposed-Features?node-id=183-72&t=kT1Ixx5A70WFB67N-1" target="_blank" rel="noreferrer"><img src={NotionKanban} className="zoom" alt="Notion AI Ideathon" width="100%"/></a>
+                <a href="https://www.figma.com/design/WBEf7mEKhHap6iTeMB9nVd/Notion-UIUX-with-Proposed-Features?node-id=183-72&t=kT1Ixx5A70WFB67N-1" target="_blank" rel="noreferrer"><h2>Notion AI Ideathon</h2></a>
+                <p>Designed an AI-assisted decision framework to help early-stage founders evaluate which problems are worth solving by mapping intended outcomes to success metrics and solution feasibility, reducing cognitive load in early product discovery.</p>
+            </div>
             <div className="project">
                 <a href="/jamie-portfolio-template/documents/dental-health-presentation.pdf" target="_blank" rel="noreferrer"><img src={DentalHealth} className="zoom" alt="Dental screening forms" width="100%"/></a>
                 <a href="/jamie-portfolio-template/documents/dental-health-presentation.pdf" target="_blank" rel="noreferrer"><h2>Dental Health Impact Checker — SIGHT Global Health Competition</h2></a>
