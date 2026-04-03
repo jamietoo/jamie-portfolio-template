@@ -3,6 +3,7 @@ import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+// @ts-ignore: package CSS file has no TypeScript declarations
 import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
 
@@ -12,6 +13,18 @@ function Timeline() {
       <div className="items-container">
         <h1>Experience & Projects</h1>
         <VerticalTimeline>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Mar 2026 - Apr 2026"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Unscripted | Product Design & Implementation</h3>
+            <h4 className="vertical-timeline-element-subtitle">Personal Project</h4>
+            <p>
+              Product Design, UX Design, Product Thinking, AI Integration, User Flow Design, PRD Writing, Figma, UI Prototyping
+            </p>
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
@@ -33,7 +46,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Zalora App Redesign Case Competition</h3>
-            <h4 className="vertical-timeline-element-subtitle">Singapore</h4>
+            <h4 className="vertical-timeline-element-subtitle"> Nanyang Technological University, Singapore.</h4>
             <p>
               UX Design, Product Thinking, User Research, Figma, Usability Testing, UI Prototyping
             </p>
@@ -45,7 +58,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Machine Learning Projects</h3>
-            <h4 className="vertical-timeline-element-subtitle">Nanyang Technological University</h4>
+            <h4 className="vertical-timeline-element-subtitle"> Nanyang Technological University, Singapore</h4>
             <p>
               CNN model implementation, K-Means, Expectation Maximization, PCA, ICA, Randomised Projections, Python, Data Visualization
             </p>
@@ -73,6 +86,18 @@ function Timeline() {
             <p>
               Product Thinking, Problem Evaluation, Outcome-Driven UX Notion, AI-Assisted Decision Frameworks, Systems Design, Workflow Prototyping, Figma
             </p> 
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Jan 2026 - Mar 2026"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >      
+            <h3 className="vertical-timeline-element-title">GovTech BoB Case Competition</h3>
+            <h4 className="vertical-timeline-element-subtitle"> Nanyang Technological University, Singapore</h4>
+            <p>
+             Product Strategy, UX Prototyping, Workflow Design, ApplySG Configuration, API/Webhook Concepting, AI Validation Logic, Risk Scoring, Stakeholder Presentation
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"

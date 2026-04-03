@@ -7,9 +7,11 @@ import {
   Contact,
   Navigation,
   Footer,
+  Unscripted,
 } from "./components";
 import FadeIn from './components/FadeIn';
 import OngoingProject from './components/comingsoon';
+import GovTechBob from './components/GovTechBob';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.scss';
 
@@ -45,6 +47,8 @@ function App() {
               <Footer />
             </>
           } />
+          <Route path="/projects/govtech-bob" element={<GovTechBob />} />
+          <Route path="/projects/unscripted" element={<Unscripted />} />
           <Route path="/projects/unsupervised" element={<OngoingProject />} />
         </Routes>
       </div>

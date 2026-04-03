@@ -14,6 +14,14 @@
 .projects-container .projects-grid .project {
     text-align: left;
 }
+
+.projects-container .projects-grid .project img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    object-position: center;
+}
   
 .project h2:hover {
     text-decoration: underline;

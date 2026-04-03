@@ -1,0 +1,80 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 7 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Length 2769 >>
+stream
+BT /F1 24 Tf 1 0 0 1 54 720 Tm (Unscripted PRD) Tj ET
+BT /F1 12 Tf 1 0 0 1 54 700 Tm (Product Requirements Document) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 656 Tm (Product: Unscripted) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 642 Tm (Purpose: Speaking practice tool for short, structured repetition and transcript-based) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 628 Tm (feedback) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 614 Tm (Target Users: People practicing public speaking, interviews, or concise verbal) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 600 Tm (communication) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 586 Tm (Version: MVP) Tj ET
+BT /F1 12.5 Tf 1 0 0 1 54 558 Tm (Problem) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 543 Tm (Many speaking practice tools are too broad, too long, or too friction-heavy for quick) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 529 Tm (daily repetition.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 515 Tm (Users need a compact practice loop that encourages consistency and gives immediate) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 501 Tm (feedback.) Tj ET
+BT /F1 12.5 Tf 1 0 0 1 54 473 Tm (Goal) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 458 Tm (Make practice feel lightweight while still producing actionable feedback after each) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 444 Tm (short recording.) Tj ET
+BT /F1 12.5 Tf 1 0 0 1 54 416 Tm (Scope) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 401 Tm (Prompt selection, one-minute recording, transcript generation, filler-word detection,) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 387 Tm (repeated-phrase highlighting,) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 373 Tm (and a clean review state for iteration.) Tj ET
+BT /F1 12.5 Tf 1 0 0 1 54 345 Tm (Key Experience) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 330 Tm (Choose a prompt, record a short response, review transcript insights, and iterate) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 316 Tm (quickly with minimal setup.) Tj ET
+BT /F1 12.5 Tf 1 0 0 1 54 288 Tm (Success Metrics) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 273 Tm (Completion rate for practice sessions, repeat sessions per user, and reduction in) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 259 Tm (filler-word density across recordings.) Tj ET
+BT /F1 12.5 Tf 1 0 0 1 54 231 Tm (What I Built) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 216 Tm (- Prompt-based speaking flow centered on a one-minute response window) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 202 Tm (- Transcript feedback that surfaces filler words and repeated phrases) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 188 Tm (- Browser-based audio recording experience) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 174 Tm (- Serverless transcription pipeline using OpenAI Whisper) Tj ET
+BT /F1 12.5 Tf 1 0 0 1 54 146 Tm (Skills & Tools) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 131 Tm (Product Design, UX Design, Product Thinking, AI Integration, User Flow Design, PRD) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 117 Tm (Writing, Figma, UI Prototyping,) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Length 401 >>
+stream
+BT /F1 10.5 Tf 1 0 0 1 54 718 Tm (React, TypeScript, Tailwind CSS, OpenAI Whisper) Tj ET
+BT /F1 12.5 Tf 1 0 0 1 54 690 Tm (Notes) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 675 Tm (This document is formatted as a PDF so the portfolio can open the PRD directly in a) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 661 Tm (dedicated file instead of) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 54 647 Tm (rendering it inline on the page.) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000003012 00000 n 
+0000003464 00000 n 
+0000003590 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+3716
+%%EOF

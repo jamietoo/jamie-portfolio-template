@@ -13,6 +13,7 @@ const labelsFirst = [
     "Scikt-learn",
     "Tensorflow",
     "Matplotlib",
+    "SQL",
    
 ];
 
@@ -20,6 +21,7 @@ const labelsSecond = [
     "Figma",
     "Canva",
     "Notion",
+    
    
 ];
 
@@ -52,7 +54,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faPalette} size="3x"/>
                     <h3>Product and UX Design</h3>
-                    <p>I design human-centered solutions informed by data and research. Skilled in Figma prototyping, usability testing, and translating complex ideas into intuitive interfaces.</p>
+                    <p>I design human-centered solutions informed by data and research. Skilled in Figma prototyping, usability testing, and translating complex ideas into intuitive interfaces. I also build and polish portfolio and product interfaces for desktop and mobile.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tools:</span>
                         {labelsSecond.map((label, index) => (
