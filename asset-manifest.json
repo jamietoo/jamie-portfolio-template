@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/jamie-portfolio-template/static/css/main.202a0fb7.css",
-    "main.js": "/jamie-portfolio-template/static/js/main.8884edc0.js",
+    "main.css": "/jamie-portfolio-template/static/css/main.bcd49b7a.css",
+    "main.js": "/jamie-portfolio-template/static/js/main.86f02e29.js",
     "static/js/453.b05d8aa5.chunk.js": "/jamie-portfolio-template/static/js/453.b05d8aa5.chunk.js",
     "static/media/jamie.png": "/jamie-portfolio-template/static/media/jamie.027247cd0563f64f6e0f.png",
+    "static/media/screenshot.png": "/jamie-portfolio-template/static/media/screenshot.171f42be7b9f50e3b7f2.png",
     "static/media/EM.png": "/jamie-portfolio-template/static/media/EM.cff023fc5a74c3bd7aba.png",
-    "static/media/screenshot.png": "/jamie-portfolio-template/static/media/screenshot.92c9e7d7934ce3a0ac23.png",
     "static/media/CNN.png": "/jamie-portfolio-template/static/media/CNN.0762fa495387f6e278cc.png",
     "static/media/bg-light.png": "/jamie-portfolio-template/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/notion-kanban.png": "/jamie-portfolio-template/static/media/notion-kanban.86d8494dfe72ca55af4c.png",
@@ -14,12 +14,12 @@
     "static/media/Zalora.png": "/jamie-portfolio-template/static/media/Zalora.f4de35b285805653c242.png",
     "static/media/govtech-bob-cover.png": "/jamie-portfolio-template/static/media/govtech-bob-cover.79da69b0c1074f4f7ff8.png",
     "index.html": "/jamie-portfolio-template/index.html",
-    "main.202a0fb7.css.map": "/jamie-portfolio-template/static/css/main.202a0fb7.css.map",
-    "main.8884edc0.js.map": "/jamie-portfolio-template/static/js/main.8884edc0.js.map",
+    "main.bcd49b7a.css.map": "/jamie-portfolio-template/static/css/main.bcd49b7a.css.map",
+    "main.86f02e29.js.map": "/jamie-portfolio-template/static/js/main.86f02e29.js.map",
     "453.b05d8aa5.chunk.js.map": "/jamie-portfolio-template/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.202a0fb7.css",
-    "static/js/main.8884edc0.js"
+    "static/css/main.bcd49b7a.css",
+    "static/js/main.86f02e29.js"
   ]
 }
