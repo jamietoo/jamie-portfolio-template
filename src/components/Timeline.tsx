@@ -15,18 +15,6 @@ function Timeline() {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Mar 2026 - Apr 2026"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Unscripted | Product Design & Implementation</h3>
-            <h4 className="vertical-timeline-element-subtitle">Personal Project</h4>
-            <p>
-              Product Design, UX Design, Product Thinking, AI Integration, User Flow Design, PRD Writing, Figma, UI Prototyping
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="Jan 2025 - May 2025"
@@ -101,7 +89,7 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Aug 2025 - Present"
+            date="Aug 2025 - May 2026"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
@@ -110,8 +98,19 @@ function Timeline() {
             <p>
               Event Communications, Visual Design, Content Strategy, Product & UX Workshops, Team Coordination
             </p>
-            
             </VerticalTimelineElement>
+            <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Mar 2026 - Apr 2026"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Unscripted | Product Design & Implementation</h3>
+            <h4 className="vertical-timeline-element-subtitle">Personal Project</h4>
+            <p>
+              Product Design, UX Design, Product Thinking, AI Integration, User Flow Design, PRD Writing, Figma, UI Prototyping
+            </p>
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Apr 2022 - Present"

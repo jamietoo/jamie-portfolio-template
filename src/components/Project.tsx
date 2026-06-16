@@ -1,12 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
-import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
 import EM from '../assets/images/EM.png';
 import CNN from '../assets/images/CNN.png';
 import '../assets/styles/Project.scss';
@@ -14,6 +7,7 @@ import Zalora from '../assets/images/Zalora.png';
 import DentalHealth from '../assets/images/dental-health-forms.png';
 import NotionKanban from '../assets/images/notion-kanban.png';
 import UnscriptedCover from '../assets/images/screenshot.png';
+import GovTechCover from '../assets/images/govtech-bob-cover.png';
 
 function Project() {
     return(
@@ -24,6 +18,11 @@ function Project() {
             <Link to="/projects/unscripted"><img src={UnscriptedCover} className="zoom project-cover" alt="Unscripted cover"/></Link>
             <Link to="/projects/unscripted"><h2>Unscripted | Product Design & Implementation</h2></Link>
             <p>Designed and built a web-based public speaking practice tool to help users improve speaking clarity through prompt-based 1-minute recordings and AI-generated transcript feedback, highlighting filler words and repeated phrases. Defined the MVP and product flow through a product requirements document, then developed and deployed the app using React, TypeScript, Tailwind CSS, browser-based audio recording, and OpenAI Whisper via a Vercel serverless function.</p>
+          </div>
+          <div className="project">
+            <Link to="/projects/govtech-bob"><img src={GovTechCover} className="zoom project-cover" alt="GovTech BoB case competition"/></Link>
+            <Link to="/projects/govtech-bob"><h2>GovTech BoB Case Competition</h2></Link>
+            <p>Designed and prototyped a Build on Build workflow on ApplySG to streamline PEI Student's Pass registration by institution, with SOLAR+ prefill, structured document collection, AI validation checks, and risk-based admin review before ICA handoff.</p>
           </div>
             <div className="project">
                 <a href="https://www.figma.com/design/WBEf7mEKhHap6iTeMB9nVd/Notion-UIUX-with-Proposed-Features?node-id=183-72&t=kT1Ixx5A70WFB67N-1" target="_blank" rel="noreferrer"><img src={NotionKanban} className="zoom project-cover" alt="Notion AI Ideathon"/></a>
