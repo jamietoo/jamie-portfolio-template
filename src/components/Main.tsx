@@ -13,12 +13,12 @@ function Main() {
         <img src={avatar} alt="Jamie Too" />
         </div>
         <div className="content">
-          <p>Fresh Graduate Of Chemical & Biomolecular Engineering</p>
+          <div className="social_icons">
              <a href="mailto:jamietoo123@gmail.com"><EmailIcon/></a>
             <a href="https://www.linkedin.com/in/jamie-too" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <h1>Jamie Too</h1>
-          <p>Final year Chemical & Biomolecular Engineering student</p>
+          <p>Fresh Graduate Of Chemical & Biomolecular Engineering</p>
 
           <div className="mobile_social_icons">
             <a href="mailto:jamietoo123@gmail.com"> <EmailIcon/> </a>
